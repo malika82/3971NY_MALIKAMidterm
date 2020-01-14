@@ -2,7 +2,7 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A.
-
+A Programming language is computer language programmers  use to
 
 
 
@@ -25,7 +25,9 @@ A.
 
 Explain the entire java life cycle.
 what is class?
+A class is BluePrint of an object.
 What is object?
+a object is an instance of a class.
 What is the entry point of an application?
 Why main is static?
 Which class is the superclass of all classes?

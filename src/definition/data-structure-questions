@@ -2,16 +2,52 @@ Please answer the below Data Structure Questions:
 
 why do we need data structure?
 A.
+1-each Data Structure allows data to be stored in a specific manner.
+2-Data structure allows efficient data search and retrieval.
+3-Specific Data Structures are designed to work for specific problems;
+4-it allows to manage large amount of data such as large databases and indexing services such as Hash table
 
 
 What are the various operations that can be performed on different Data Structures?
+1-Insertion: adding new record to Data structure;
+2-Deletion: Removing particular record from the data structure.
+3-Searching: Finding the location of the record in data structure.
+4-Sorting: Arranging records in a specific order.
+5-Merging: Combining the records from different data structures to single data structure.
+6-Traversing:Accessing and processing records .
+
 List out the areas in which data structures are applied extensively?
+1-Compiler Design.
+2-Operating System.
+3-Database Management System
+4-Statistical analysis package
+5-Numerical Analysis.
+6-Graphics.
+7-Artificial Intelligence
+
 what is an Array?
+An array id a Data Structure containing a number of a same data type elements. Array is
+index based , first element of the array is stored at index 0 index.
+
 what is the difference between the Array and ArrayList?
+1- Array length is fixed but ArrayList length is dynamic .
+2-Arrays can contain primitive and non primitive data type but ArrayList contain only non primitive data type(objects);
+3- Array element's can be accessed  by using an index [], ArrayList has a set of methods.
+
 what is LinkedList?
+LinkedList in Java. Linked List are linear data structures where the elements are not stored in contiguous locations and every element is a separate object
+ with a data part and address part. The elements are linked using pointers and addresses.
+
 How is an Array different from Linked List?
+1-88888888
+888888
+
 what is queue?
+Queue represents a data structure designed to have elements inserted at the end of the queue,
+and elements removed from the beginning of the queue.
+
 what is stack?
+
 what is FIFO and LIFO?
 what is the order of complexity?
 what is the best case to search an element from an array?

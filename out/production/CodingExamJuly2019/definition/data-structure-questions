@@ -8,6 +8,7 @@ What are the various operations that can be performed on different Data Structur
 List out the areas in which data structures are applied extensively?
 what is an Array?
 what is the difference between the Array and ArrayList?
+Array has a fixed size the ArrayList has a dynamic size.
 what is LinkedList?
 How is an Array different from Linked List?
 what is queue?

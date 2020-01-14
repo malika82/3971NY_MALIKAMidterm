@@ -1,5 +1,7 @@
 package datastructure;
 
+import java.util.Map;
+
 public class UseMap {
 
 	public static void main(String[] args) {
