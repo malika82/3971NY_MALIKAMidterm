@@ -20,11 +20,11 @@ public class FindLowestDifference {
         */
         int[] array1 = {30, 12, 5, 9, 2, 20, 33, 1};
         int[] array2 = {18, 25, 41, 47, 17, 36, 14, 19};
-        int smallestDifferenceArray1 = FindLowestDifference.findlowestdiffference(array1);
+        int smallestDifferenceArray1 = findlowestdiffference(array1);
 
         System.out.println("\n" + "The lowest difference between array1 cells is:" + " " + smallestDifferenceArray1);
 
-        int smallestDifferenceArray2 = FindLowestDifference.findlowestdiffference(array2);
+        int smallestDifferenceArray2 = findlowestdiffference(array2);
 
         System.out.println("\n" + "The lowest difference between array2 cells is:" + " " + smallestDifferenceArray2);
         if (smallestDifferenceArray1 < smallestDifferenceArray2) {

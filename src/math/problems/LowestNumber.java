@@ -16,7 +16,6 @@ public class LowestNumber {
 		}return lowest;
 	}
 
-
 	public static void main(String[] args) {
 		/*
 		 * Write java solution to find the lowest number from this array.

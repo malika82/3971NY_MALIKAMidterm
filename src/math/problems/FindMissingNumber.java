@@ -5,7 +5,6 @@ package math.problems;
  */
 public class FindMissingNumber {
 
-
     public static void main(String[] args) {
         /*
          * If n = 10, then array will have 9 elements in the range from 1 to 10.
@@ -18,10 +17,10 @@ public class FindMissingNumber {
         for (int i = 1; i <= 10; i++) {
             sum1 = sum1 + i;
         }
-int sum2=0;
+        int sum2 = 0;
         for (int i = 0; i < array.length; i++) {
-            sum2=sum2+array[i];
+            sum2 = sum2 + array[i];
         }
-        System.out.println("The missing number is"+" "+(sum1-sum2));
+        System.out.println("The missing number is" + " " + (sum1 - sum2));
     }
 }
