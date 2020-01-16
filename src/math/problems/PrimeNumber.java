@@ -28,7 +28,7 @@ public class PrimeNumber {
          *
          */
         for (int i = 2; i < 100; i++) {
-            if(PrimeNumber.isPrimeNumber(i)) {
+            if(isPrimeNumber(i)) {
                 System.out.println(i+" ");
             }
 

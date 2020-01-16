@@ -45,11 +45,26 @@ public class Sort {
     }
 
     public int[] bubbleSort(int [] array){
-        int [] list = array;
-        //implement here
+        final long startTime=System.currentTimeMillis();
+       int [] list=array;
+        int temp=0;
+        int i,j;
+        for ( i=0; i<array.length-1;i++ ){
+            for( j=0;j<array.length-1-i;j++){
+                if (array[j]>array[j+1]){
+                    temp=list[j];
+                    list[j]=list[j+1];
+                    list[j+1]=temp;
 
-        
-        
+                }
+            }
+        }
+
+        final  long endTime=System.currentTimeMillis();
+        final long executionTime=endTime-startTime;
+        this.executionTime=executionTime;
+
+
         return list;
     }
     

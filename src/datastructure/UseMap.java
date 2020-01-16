@@ -1,18 +1,24 @@
 package datastructure;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.*;
 
 public class UseMap {
 
-	public static <Lsit> void main(String[] args) {
+	public static <Lsit> void main(String[] args) throws SQLException {
 		/*
 		 * Demonstrate how to use Map that includes storing and retrieving elements.
 		 * Add List<String> into a Map. Like, Map<String, List<string>> list = new HashMap<String, List<String>>();
 		 * Use For Each loop and while loop with Iterator to retrieve data.
 		 *
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
+		 *
 		 */
-
+		Connection connection=null;
+		Statement  statement=null;
 		Map<String, List<String>> list = new HashMap<String, List<String>>();
 
 
@@ -50,6 +56,28 @@ public class UseMap {
 
 
 		}
+		String url = "jdbc:mysql://localhost:3306/pnt?serverTimezone=UTC";
+		String user = "root";
+		String password = "MAMA1974";
 
+		try {
+			connection = DriverManager.getConnection(url, user, password);
+			statement=connection.createStatement();
+			//String query=" create table UseMap (continent   varchar(20) primary key not null, countries varchar(30));";
+			String query2 =" insert into UseMap (continent,countries) values ('Europe','UK,Belgium,Spain,Italy');";
+			statement.execute(query2);
+
+
+
+
+		} catch (SQLException ex){
+			ex.printStackTrace();
+			System.out.println("something wrong with your connection");
+		}
+
+		finally {
+			statement.close();
+			connection.close();
+		}
 	}
-}
+	}

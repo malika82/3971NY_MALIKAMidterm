@@ -65,9 +65,22 @@ what is the worst case to search an element from an array?
 what is tree in data structure?
 what is graph in data structure?
 what is the difference between the HashTable and HashMap?
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS----->Arrays.
+Network data model----->Graph;
+Hierarchical data model-----> Tree.
+
 How HashMap works in java?
+HashMap implements  MAP interface it  works on the principle of Hashing. It stores elements as key-value pairs.
+Java has a hash function which called hashCode(). The hashCode() method is implemented in the Object class and therefore
+each class in Java inherits it.The hash code provides the hash value.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+ArrayIndexOutOfBoundsException is an Exception that we need to handle. it is thrown to indicate that we are trying to
+access array element with an illegal index.
+This exception is thrown when the index is either negative or greater than or equal to the size of the array.
+
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
 What is DFS and BFS?
