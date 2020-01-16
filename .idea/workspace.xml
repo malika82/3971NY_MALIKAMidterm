@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="584f81b2-31cb-4576-bc72-6d673ff767f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng_6_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/testng-6.8.5.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CodingExamJuly2019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodingExamJuly2019.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.41-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mysql-connector-java-6.0.6-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/testng-6.8.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingExamJuly2019/definition/data-structure-questions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/definition/data-structure-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/data-structure-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/UnitTestingMath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,8 +30,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="findjar.last.used.dir" value="$USER_HOME$/IdeaProjects" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -39,32 +44,18 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/codelab/status" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.UseArrayList">
+  <component name="RunManager" selected="Application.UseMap">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="DetermineLargestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.problems.DetermineLargestWord" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="DuplicateWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.problems.DuplicateWord" />
@@ -80,22 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLowestDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.FindLowestDifference" />
-      <module name="CodingExamJuly2019" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseMap" />
       <module name="CodingExamJuly2019" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -114,28 +91,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="UnitTestingStringProblem.testNegativeIsAnagram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.problems" />
+      <option name="MAIN_CLASS_NAME" value="string.problems.UnitTestingStringProblem" />
+      <option name="METHOD_NAME" value="testNegativeIsAnagram" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestingMath.testPositiveFindfLowestDifference" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTestingStringProblem.testNegativeIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodingExamJuly2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="math.problems" />
-      <option name="MAIN_CLASS_NAME" value="math.problems.UnitTestingMath" />
-      <option name="METHOD_NAME" value="testPositiveFindfLowestDifference" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="string.problems" />
+      <option name="MAIN_CLASS_NAME" value="string.problems.UnitTestingStringProblem" />
+      <option name="METHOD_NAME" value="testNegativeIsPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTestingStringProblem.testPositiveIsPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodingExamJuly2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string.problems" />
+      <option name="MAIN_CLASS_NAME" value="string.problems.UnitTestingStringProblem" />
+      <option name="METHOD_NAME" value="testPositiveIsPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DetermineLargestWord" />
-      <item itemvalue="Application.FindLowestDifference" />
+      <item itemvalue="JUnit.UnitTestingStringProblem.testNegativeIsAnagram" />
+      <item itemvalue="JUnit.UnitTestingStringProblem.testPositiveIsPalindrome" />
+      <item itemvalue="JUnit.UnitTestingStringProblem.testNegativeIsPalindrome" />
       <item itemvalue="Application.DuplicateWord" />
-      <item itemvalue="Application.UseArrayList" />
-      <item itemvalue="TestNG.UnitTestingMath.testPositiveFindfLowestDifference" />
+      <item itemvalue="Application.UseMap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UseArrayList" />
+        <item itemvalue="Application.UseMap" />
         <item itemvalue="Application.DuplicateWord" />
-        <item itemvalue="Application.FindLowestDifference" />
-        <item itemvalue="Application.DetermineLargestWord" />
-        <item itemvalue="TestNG.UnitTestingMath.testPositiveFindfLowestDifference" />
+        <item itemvalue="JUnit.UnitTestingStringProblem.testNegativeIsAnagram" />
+        <item itemvalue="JUnit.UnitTestingStringProblem.testNegativeIsPalindrome" />
+        <item itemvalue="JUnit.UnitTestingStringProblem.testPositiveIsPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -191,63 +200,70 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="348" y="23" key="#Fibonacci" timestamp="1578863678220">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="348" y="23" key="#Fibonacci/0.23.1440.810@0.23.1440.810" timestamp="1578863678220" />
-    <state width="1398" height="166" key="GridCell.Tab.0.bottom" timestamp="1579135252052">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="533" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1579141162699">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="533" y="140" key="#com.intellij.ide.util.MemberChooser/0.23.1440.805@0.23.1440.805" timestamp="1579141162699" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1579141535887">
+      <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state width="1398" height="188" key="GridCell.Tab.0.bottom/0.0.1440.830@0.0.1440.830" timestamp="1578958019645" />
     <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.0.1440.833@0.0.1440.833" timestamp="1579054657698" />
     <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.0.1440.838@0.0.1440.838" timestamp="1578853720561" />
     <state width="1398" height="104" key="GridCell.Tab.0.bottom/0.0.1440.844@0.0.1440.844" timestamp="1578850955112" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.846@0.0.1440.846" timestamp="1578844884720" />
-    <state width="1398" height="108" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1579129962587" />
-    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1579127251284" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1579141535887" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1579140606266" />
     <state width="1117" height="191" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1579049154619" />
     <state width="1398" height="166" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1579135252052" />
     <state width="1398" height="94" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1579132108631" />
     <state width="1232" height="2" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578848979146" />
-    <state width="1398" height="166" key="GridCell.Tab.0.center" timestamp="1579135252051">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1579141535886">
+      <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state width="1398" height="188" key="GridCell.Tab.0.center/0.0.1440.830@0.0.1440.830" timestamp="1578958019644" />
     <state width="1398" height="190" key="GridCell.Tab.0.center/0.0.1440.833@0.0.1440.833" timestamp="1579054657697" />
     <state width="1398" height="2" key="GridCell.Tab.0.center/0.0.1440.838@0.0.1440.838" timestamp="1578853720560" />
     <state width="1398" height="104" key="GridCell.Tab.0.center/0.0.1440.844@0.0.1440.844" timestamp="1578850955111" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.846@0.0.1440.846" timestamp="1578844884719" />
-    <state width="1398" height="108" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1579129962586" />
-    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1579127251283" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1579141535886" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1579140606265" />
     <state width="1117" height="191" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1579049154618" />
     <state width="1398" height="166" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1579135252051" />
     <state width="1398" height="94" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1579132108630" />
     <state width="1232" height="2" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578848979145" />
-    <state width="1398" height="166" key="GridCell.Tab.0.left" timestamp="1579135252051">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1579141535886">
+      <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state width="1398" height="188" key="GridCell.Tab.0.left/0.0.1440.830@0.0.1440.830" timestamp="1578958019643" />
     <state width="1398" height="190" key="GridCell.Tab.0.left/0.0.1440.833@0.0.1440.833" timestamp="1579054657697" />
     <state width="1398" height="2" key="GridCell.Tab.0.left/0.0.1440.838@0.0.1440.838" timestamp="1578853720560" />
     <state width="1398" height="104" key="GridCell.Tab.0.left/0.0.1440.844@0.0.1440.844" timestamp="1578850955110" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.846@0.0.1440.846" timestamp="1578844884718" />
-    <state width="1398" height="108" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1579129962585" />
-    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1579127251283" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1579141535886" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1579140606264" />
     <state width="1117" height="191" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1579049154617" />
     <state width="1398" height="166" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1579135252051" />
     <state width="1398" height="94" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1579132108630" />
     <state width="1232" height="2" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578848979144" />
-    <state width="1398" height="166" key="GridCell.Tab.0.right" timestamp="1579135252051">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1579141535887">
+      <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state width="1398" height="188" key="GridCell.Tab.0.right/0.0.1440.830@0.0.1440.830" timestamp="1578958019645" />
     <state width="1398" height="190" key="GridCell.Tab.0.right/0.0.1440.833@0.0.1440.833" timestamp="1579054657698" />
     <state width="1398" height="2" key="GridCell.Tab.0.right/0.0.1440.838@0.0.1440.838" timestamp="1578853720561" />
     <state width="1398" height="104" key="GridCell.Tab.0.right/0.0.1440.844@0.0.1440.844" timestamp="1578850955112" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.846@0.0.1440.846" timestamp="1578844884719" />
-    <state width="1398" height="108" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1579129962587" />
-    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1579127251284" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1579141535887" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1579140606265" />
     <state width="1117" height="191" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1579049154618" />
     <state width="1398" height="166" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1579135252051" />
     <state width="1398" height="94" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1579132108631" />
@@ -272,20 +288,25 @@
     </state>
     <state width="1398" height="302" key="GridCell.Tab.1.right/0.0.1440.833@0.0.1440.833" timestamp="1578864115786" />
     <state width="1398" height="302" key="GridCell.Tab.1.right/0.23.1440.812@0.23.1440.812" timestamp="1578867048905" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1579132702738">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1579136654454">
+      <screen x="0" y="23" width="1440" height="807" />
     </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1579129257879" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1579136654454" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1579132702737" />
-    <state x="321" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1579125240998">
+    <state x="321" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1579136513173">
       <screen x="0" y="23" width="1440" height="807" />
     </state>
     <state x="321" y="169" key="com.intellij.ide.util.TipDialog/0.0.1440.830@0.0.1440.830" timestamp="1579110768385" />
     <state x="321" y="169" key="com.intellij.ide.util.TipDialog/0.0.1440.833@0.0.1440.833" timestamp="1578952078457" />
     <state x="321" y="187" key="com.intellij.ide.util.TipDialog/0.23.1440.805@0.23.1440.805" timestamp="1579122666410" />
-    <state x="321" y="187" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579125240998" />
+    <state x="321" y="187" key="com.intellij.ide.util.TipDialog/0.23.1440.807@0.23.1440.807" timestamp="1579136513173" />
     <state x="321" y="187" key="com.intellij.ide.util.TipDialog/0.23.1440.810@0.23.1440.810" timestamp="1578967426481" />
     <state x="321" y="188" key="com.intellij.ide.util.TipDialog/0.23.1440.812@0.23.1440.812" timestamp="1579041429510" />
+    <state x="321" y="188" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1579135456396" />
+    <state x="432" y="329" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579135985260">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="432" y="329" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.807@0.23.1440.807" timestamp="1579135985260" />
     <state x="388" y="103" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579129931931">
       <screen x="0" y="23" width="1440" height="805" />
     </state>

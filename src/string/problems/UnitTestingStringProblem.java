@@ -1,7 +1,7 @@
 package string.problems;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class UnitTestingStringProblem {
 
@@ -16,8 +16,9 @@ public class UnitTestingStringProblem {
     @Test
     public void testNegativeIsAnagram() {
         boolean ExpectedResult = false;
-        boolean ActualResult = Anagram.isAnagram("bct", "act");
-        Assert.assertEquals(ExpectedResult, ActualResult);
+        boolean ActualResult = Anagram.isAnagram("vat", "act");
+        //Assert.assertEquals(ExpectedResult, ActualResult);
+        Assert.assertNotEquals(ExpectedResult,ActualResult);
     }
 
     @Test

@@ -38,8 +38,16 @@ public class DuplicateWord {
                 System.out.println(str + "====> " + duplicateWord.get(str));
             }
         }
+        int count=0;
+         for (Integer n:duplicateWord.values()){
+             count=count+1;
+         }
 
-       int  sum=0;
+    double average=st.length()/count;
+        System.out.println("average length"+" "+ average);
+
+
     }
+
 
 }
