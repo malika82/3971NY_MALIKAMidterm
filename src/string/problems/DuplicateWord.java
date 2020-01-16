@@ -16,23 +16,30 @@ public class DuplicateWord {
         Map<String, Integer> duplicateWord = new HashMap<>();
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
         String st1 = st.toLowerCase();
-        String[] stringWords = st1.split(" ");
+        String[] stringWords = st1.split("\\W+");
+
         // adding the words into the Map;
-        // if the word exist in the map we need to increment its value bye 1;
+        // if the word exist in the map we need to increment its value by 1;
         //else if this the first time then put 1 for its value;
-
         for (String str : stringWords) {
-            if (duplicateWord.get(str) != null) {
-                duplicateWord.put(st, duplicateWord.get(str) + 1);
-
-            } else {
+            if (duplicateWord.containsKey(str)) {
+                duplicateWord.put(str, duplicateWord.get(str) + 1);
+            } else
                 duplicateWord.put(str, 1);
-
-            }
-
-            duplicateWord.forEach((k,v) -> System.out.println("Key = "
-                    + k + ", Value = " + v));
         }
+
+
+        duplicateWord.forEach((k, v) -> System.out.println("Key=====> "
+                + k + ", Value =====> " + v));
+
+        System.out.println(" the duplicate words are:");
+        for (String str : duplicateWord.keySet()) {
+            if (duplicateWord.get(str) > 1) {
+                System.out.println(str + "====> " + duplicateWord.get(str));
+            }
+        }
+
+       int  sum=0;
     }
 
 }

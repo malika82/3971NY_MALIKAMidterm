@@ -35,7 +35,8 @@ what is the difference between the Array and ArrayList?
 3- Array element's can be accessed  by using an index [], ArrayList has a set of methods.
 
 what is LinkedList?
-LinkedList in Java. Linked List are linear data structures where the elements are not stored in contiguous locations and every element is a separate object
+LinkedList in Java. Linked List are linear data structures where the elements are not stored in contiguous locations and
+ every element is a separate object
  with a data part and address part. The elements are linked using pointers and addresses.
 
 How is an Array different from Linked List?
@@ -49,8 +50,17 @@ and elements removed from the beginning of the queue.
 what is stack?
 
 what is FIFO and LIFO?
+FIFO: Stands for "First In First Out" is a method in which items are processed  in the order they have been entered.
+Certain data structures like Queue and other variants of Queue uses FIFO approach for processing data.
+
+LIFO: Stands for "Last In First Out"  is a method for handling data structures where the first element is processed last
+ and the last element is processed first. In Stack elements can be accessed on the basis of LIFO.
+
 what is the order of complexity?
+
 what is the best case to search an element from an array?
+Binary search & sorting algorithm.
+
 what is the worst case to search an element from an array?
 what is tree in data structure?
 what is graph in data structure?
