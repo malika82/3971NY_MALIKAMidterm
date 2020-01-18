@@ -26,7 +26,7 @@ public class Palindrome {
 
         System.out.println("enter a string");
         str = sc.next();
-        if (Palindrome.isPalindrome(str)) {
+        if (isPalindrome(str)) {
             System.out.println(str + " " + "is a Palindrome");
         } else {
             System.out.println(str + " " + "is not  a Palindrome");

@@ -18,7 +18,7 @@ public class UnitTestingMath {
 
     @Test
     public void testNegativePrimeNumber() {
-        boolean expectedOutcome = true;
+        boolean expectedOutcome = false;
         boolean actualOutCome = PrimeNumber.isPrimeNumber(8);
         Assert.assertEquals(expectedOutcome, actualOutCome);
 
@@ -35,7 +35,7 @@ public class UnitTestingMath {
     public void testNegativeFindLowestDifference() {
         int expectResult = 5;
         int actualResult = FindLowestDifference.findlowestdiffference(new int[]{1, 0, 4, 5, 8});
-        Assert.assertEquals(expectResult, actualResult);
+        Assert.assertNotEquals(expectResult,actualResult);
 
 
     }
@@ -51,7 +51,7 @@ public class UnitTestingMath {
     public void testNegativeRecursionFactorial() {
         long expectedResult = 123;
         long actualResulat = Factorial.recursionFactorial(5);
-        Assert.assertEquals(expectedResult, actualResulat);
+        Assert.assertNotEquals(expectedResult,actualResulat);
     }
 
 }

@@ -36,15 +36,15 @@ public class Factorial {
 
         System.out.println(" Find a Factorial of a given number using Iteration Method ");
         System.out.println("enter an integer");
-        number=sc.nextInt();
-        Factorial.iterationFactorial(number);
-        System.out.println("The factorial of"+" "+number+" "+"is"+" "+Factorial.iterationFactorial(number));
+        number = sc.nextInt();
+        iterationFactorial(number);
+        System.out.println("The factorial of" + " " + number + " " + "is" + " " + Factorial.iterationFactorial(number));
         //find Factorial of a given number using Recursion
         System.out.println("\n" + " Find a Factorial of a given number using a Recursion Method ");
         System.out.println("enter an integer");
         number = sc.nextInt();
-        Factorial.recursionFactorial(number);
-        System.out.println("The factorial of"+" "+number+" "+"is"+" "+Factorial.recursionFactorial(number));
+        recursionFactorial(number);
+        System.out.println("The factorial of" + " " + number + " " + "is" + " " + Factorial.recursionFactorial(number));
 
     }
 

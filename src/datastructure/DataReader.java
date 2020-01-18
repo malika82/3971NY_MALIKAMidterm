@@ -32,7 +32,7 @@ public class DataReader {
             fileReader = new FileReader(textFile);
             bufferedReader = new BufferedReader(fileReader);
 
-            while( (data=bufferedReader.readLine()) != null) {
+            while ((data = bufferedReader.readLine()) != null) {
                 System.out.println(data);
             }
 
@@ -47,15 +47,14 @@ public class DataReader {
             fileReader.close();
 
         }
-    String [] myData=data.split("\\w+");
-		Stack<String> mystack = new Stack<>();
-		for (String s:myData){
-			mystack.push(s);
-		}
-		for(String s:myData){
-			System.out.println(s);
-		}
-
+        String[] myData = data.split("\\w+");
+        Stack<String> mystack = new Stack<>();
+        for (String s : myData) {
+            mystack.push(s);
+        }
+        for (String s : myData) {
+            System.out.println(s);
+        }
 
 
     }

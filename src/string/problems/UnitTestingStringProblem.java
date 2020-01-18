@@ -30,8 +30,8 @@ public class UnitTestingStringProblem {
 
     @Test
     public void testNegativeIsPalindrome() {
-        boolean ExpectedResult = false;
+        boolean ExpectedResult = true;
         boolean ActualResult = Palindrome.isPalindrome("bnh");
-        Assert.assertEquals(ExpectedResult, ActualResult);
+        Assert.assertNotEquals(ExpectedResult,ActualResult);
     }
 }

@@ -7,7 +7,7 @@ public class PrimeNumber {
         int count = 0;//counting how many dividers
         for (int i = 1; i <= num; i++) {
             if (num % i == 0) {
-                count =count+1;
+                count = count + 1;
             }
         }
         if (count != 2) {
@@ -28,8 +28,8 @@ public class PrimeNumber {
          *
          */
         for (int i = 2; i < 100; i++) {
-            if(isPrimeNumber(i)) {
-                System.out.println(i+" ");
+            if (isPrimeNumber(i)) {
+                System.out.println(i + " ");
             }
 
         }

@@ -40,7 +40,7 @@ public class Anagram {
         System.out.println("enter the second string ");
         str2 = sc.next();
 
-        if (Anagram.isAnagram(str1, str2)) {
+        if (isAnagram(str1, str2)) {
             System.out.println(str1 + " " + "and " + " " + str2 + " " + "are Anagram");
         } else
             System.out.println(str1 + " " + "and " + " " + str2 + " " + "are  not Anagram");
