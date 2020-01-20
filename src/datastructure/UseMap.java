@@ -64,9 +64,10 @@ public class UseMap {
             connection = DriverManager.getConnection(url, user, password);
             statement = connection.createStatement();
             //String query=" create table UseMap (continent   varchar(20) primary key not null, countries varchar(30));";
-            String query2 = " insert into UseMap (continent,countries) values ('Europe','UK,Belgium,Spain,Italy');";
-
+            //String query2 = " insert into UseMap (continent,countries) values ('Europe','UK,Belgium,Spain,Italy');";
+            String query2 = "select * from UseMap;";
             statement.execute(query2);
+            System.out.println(statement.execute(query2));
 
 
         } catch (SQLException ex) {
